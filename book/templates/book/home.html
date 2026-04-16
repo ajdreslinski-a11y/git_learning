@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #1f2937;
+        }
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 32px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            margin-top: 0;
+            color: #111827;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .actions {
+            margin-top: 24px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .button-primary {
+            background: #2563eb;
+            color: #ffffff;
+        }
+        .button-secondary {
+            background: #e5e7eb;
+            color: #111827;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Book Management Home</h1>
+        <p>Welcome to your book management app. Start by creating and organizing your book records.</p>
+        <div class="actions">
+            <a class="button button-primary" href="/admin/">Open Admin</a>
+            <a class="button button-secondary" href="#">View Books</a>
+        </div>
+    </main>
+</body>
+</html>
